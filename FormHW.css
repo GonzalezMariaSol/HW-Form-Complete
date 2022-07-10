@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(174, 38, 106);
+}
+div{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 27em;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20em;
+    border-radius: 2%;
+}
+
+h1{
+    color: rgb(174, 38, 106);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 24em;
+    margin-left: -0.5em;
+}
+
+input[type], textarea{
+    margin-left: 0.5em;
+    border-radius: 0.3em;
+    border-width: 0.1em;
+    border-color: rgb(174, 38, 106);            /*idk why it has a shade that i can't take it off bc is not a "box shadow"*/
+}
+input::placeholder{
+    color: rgb(204, 204, 208);
+}
+textarea::placeholder{
+    color: rgb(204, 204, 208);
+}
+input[type="submit"]{
+    background-color:rgb(174, 38, 106); 
+    color: white;
+}
+strong, input, textarea{
+}  /*IDK HOW TO PUT A SPACING BETWEEN THE TEXT AND THE BOX FOR WRITE*/

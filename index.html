@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FormHW.css">
+    <title>Practica de Formularios</title>
+</head>
+<body>
+    <div>
+        <h1>Formulario de Contacto</h1>
+        <h4>Escribenos y en breve nos pondremos en contacto contigo</h4>
+        <form>
+            <p><strong>Nombre * </strong></p><input type="text" name="name" required placeholder="ej: Sol">
+            <p><strong>Email * </strong></p><input type="email" name="email" required placeholder="ej: sol@mail.com">
+            <p><strong>Telefono </strong></p><input type="number" name="phone" placeholder="ej: (00)1111-1111" maxlength="14">
+            <p><strong>Sitio Web </strong></p><input type="text" name="TheirWeb" placeholder="ej: Instagram/TuPerfilLink">
+            <p><strong>Asunto * </strong></p><input type="text" name="about" placeholder="ej: Peticion de trabajo" maxlength="20">
+            <p><strong>Mensaje * </strong></p>
+                <textarea cols="70" rows="10" placeholder="He visto su publicacion de oferta laboral"></textarea><br>
+            <input type="submit" value="Enviar">
+            <h6><strong>* los campos son obligatorios</strong></h6>
+        </form>
+    </div>
+</body>
+</html>
